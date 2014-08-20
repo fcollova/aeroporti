@@ -7,10 +7,7 @@
 
 
 import networkx as nx
-import matplotlib.pyplot as plt
-import connectivity_approx as conn
-
-#---------------F.C. Create Graph
+from networkx.readwrite import json_graph
 
 DG=nx.DiGraph()
 DG.add_edge("Gate1", 4, weight=1)
@@ -41,27 +38,5 @@ DG.add_edge("Ranway1",9, weight=1)
 DG.add_edge(9,"Ranway1", weight=1)
 
 
-pos=nx.spring_layout(DG)
-labels=nx.draw_networkx_labels(DG,pos)
-nx.draw(DG,pos)
-plt.show()
-
-
-print(nx.shortest_path(DG, source="Gate1",target="Ranway1", weight="weight"))
-
-print(nx.dijkstra_path(DG,  source="Gate1", target="Ranway1"))
-#path=nx.all_pairs_dijkstra_path(DG)
-#print("dijkstra", path)
-#bfstree = nx.bfs_edges(DG, "Ranway1")
-#print(list(bfstree))
-
-pathex=conn.bidirectional_shortest_path(DG, "Ranway1", "Gate1", [7])
-print(pathex)
-
-T_DG = DG.copy()
-T_DG.remove_node(7)
-#T_DG.remove_node(8)
-#T_DG.remove_node(9)
-
-
-print(nx.dijkstra_path(T_DG,  source="Gate1", target="Ranway1"))
+data_json = json_graph.node_link_data(DG)
+print data_json
