@@ -1,0 +1,4001 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="z" attr.type="float" for="node" id="z"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="In-Degree" attr.type="int" for="node" id="indegree"/>
+<key attr.name="Out-Degree" attr.type="int" for="node" id="outdegree"/>
+<key attr.name="Degree" attr.type="int" for="node" id="degree"/>
+<key attr.name="Weighted Degree" attr.type="double" for="node" id="weighted degree"/>
+<key attr.name="Weighted In-Degree" attr.type="double" for="node" id="weighted indegree"/>
+<key attr.name="Weighted Out-Degree" attr.type="double" for="node" id="weighted outdegree"/>
+<key attr.name="Eccentricity" attr.type="double" for="node" id="eccentricity"/>
+<key attr.name="Closeness Centrality" attr.type="double" for="node" id="closnesscentrality"/>
+<key attr.name="Betweenness Centrality" attr.type="double" for="node" id="betweenesscentrality"/>
+<key attr.name="Authority" attr.type="float" for="node" id="authority"/>
+<key attr.name="Hub" attr.type="float" for="node" id="hub"/>
+<key attr.name="Modularity Class" attr.type="int" for="node" id="modularity_class"/>
+<key attr.name="Clustering Coefficient" attr.type="double" for="node" id="clustering"/>
+<key attr.name="Weighted Clustering Coefficient" attr.type="double" for="node" id="weightedclustering"/>
+<key attr.name="Strenght" attr.type="double" for="node" id="strenght"/>
+<key attr.name="Local Clustering Coefficient" attr.type="double" for="node" id="newClusteringCoefficient"/>
+<key attr.name="Eigenvector Centrality" attr.type="double" for="node" id="eigencentrality"/>
+<key attr.name="EdgeBetweenness" attr.type="double" for="edge" id="edgebetweenness"/>
+<graph edgedefault="directed">
+<node id="1">
+<data key="label">1_Runway</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.10587102983638114</data>
+<data key="betweenesscentrality">0.20968741468741464</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.03885956243953103</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1100.0402</data>
+<data key="y">-25.419832</data>
+<data key="z">0.0080052735</data>
+</node>
+<node id="2">
+<data key="label">2_RunWay</data>
+<data key="indegree">1</data>
+<data key="outdegree">3</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.11764705882352941</data>
+<data key="betweenesscentrality">0.20960551460551458</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.020338935788722673</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">887.4824</data>
+<data key="y">-115.91898</data>
+<data key="z">0.0046070353</data>
+</node>
+<node id="3">
+<data key="label">3_Runway</data>
+<data key="indegree">1</data>
+<data key="outdegree">2</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.10476190476190476</data>
+<data key="betweenesscentrality">0.1808381108381108</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.16666667</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.16666666666666666</data>
+<data key="eigencentrality">0.013797953134432656</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">578.676</data>
+<data key="y">27.880163</data>
+<data key="z">0.00849528</data>
+</node>
+<node id="11">
+<data key="label">11_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">1</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08807045636509207</data>
+<data key="betweenesscentrality">0.17519792519792518</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08069900397912594</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">638.0387</data>
+<data key="y">-224.36632</data>
+<data key="z">0.004209997</data>
+</node>
+<node id="14">
+<data key="label">14_Runway</data>
+<data key="indegree">3</data>
+<data key="outdegree">1</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">30.0</data>
+<data key="closnesscentrality">0.08264462809917356</data>
+<data key="betweenesscentrality">0.08262353262353252</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.3200399853803242</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">1235.265</data>
+<data key="y">-268.96786</data>
+<data key="z">0.009273616</data>
+</node>
+<node id="4">
+<data key="label">4_Runway</data>
+<data key="indegree">1</data>
+<data key="outdegree">2</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.10377358490566037</data>
+<data key="betweenesscentrality">0.017936117936117935</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.16666667</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.16666666666666666</data>
+<data key="eigencentrality">0.011818625977487833</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">478.59433</data>
+<data key="y">105.58319</data>
+<data key="z">0.0038098958</data>
+</node>
+<node id="9">
+<data key="label">9_Runway</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.11099899091826437</data>
+<data key="betweenesscentrality">0.1979415779415779</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.15</data>
+<data key="weightedclustering">0.10000001</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.06666666666666667</data>
+<data key="eigencentrality">0.07269011267964431</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">342.9742</data>
+<data key="y">92.56542</data>
+<data key="z">0.00936501</data>
+</node>
+<node id="5">
+<data key="label">5_Runway</data>
+<data key="indegree">1</data>
+<data key="outdegree">2</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.09345794392523366</data>
+<data key="betweenesscentrality">0.009104559104559104</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.011323113923290481</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">470.42386</data>
+<data key="y">209.92429</data>
+<data key="z">0.008589604</data>
+</node>
+<node id="6">
+<data key="label">6_Runway</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.08461538461538462</data>
+<data key="betweenesscentrality">6.825006825006824E-5</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.011220653957792294</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">466.3266</data>
+<data key="y">294.97128</data>
+<data key="z">0.0046814345</data>
+</node>
+<node id="8">
+<data key="label">8_Runway</data>
+<data key="indegree">3</data>
+<data key="outdegree">2</data>
+<data key="degree">5</data>
+<data key="weighted degree">5.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.10018214936247723</data>
+<data key="betweenesscentrality">0.0353944853944854</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">5.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08873373034391324</data>
+<data key="size">37.77778</data>
+<data key="r">120</data>
+<data key="g">165</data>
+<data key="b">142</data>
+<data key="x">367.03894</data>
+<data key="y">209.2003</data>
+<data key="z">0.0034977763</data>
+</node>
+<node id="7">
+<data key="label">7_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">1</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.09113504556752279</data>
+<data key="betweenesscentrality">0.008927108927108927</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.06075133239932525</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">387.5996</data>
+<data key="y">300.02237</data>
+<data key="z">0.0013796013</data>
+</node>
+<node id="10">
+<data key="label">10_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.11316872427983539</data>
+<data key="betweenesscentrality">0.16051733551733552</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.083333336</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.08333333333333333</data>
+<data key="eigencentrality">0.1592783562710237</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">257.47308</data>
+<data key="y">-5.2974863</data>
+<data key="z">0.007997167</data>
+</node>
+<node id="22">
+<data key="label">22</data>
+<data key="indegree">4</data>
+<data key="outdegree">3</data>
+<data key="degree">7</data>
+<data key="weighted degree">7.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">21.0</data>
+<data key="closnesscentrality">0.11282051282051282</data>
+<data key="betweenesscentrality">0.30919601419601417</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.04761905</data>
+<data key="strenght">7.0</data>
+<data key="newClusteringCoefficient">0.047619047619047616</data>
+<data key="eigencentrality">0.29337360288675923</data>
+<data key="size">46.666668</data>
+<data key="r">72</data>
+<data key="g">152</data>
+<data key="b">130</data>
+<data key="x">47.948006</data>
+<data key="y">81.01624</data>
+<data key="z">0.006351213</data>
+</node>
+<node id="12">
+<data key="label">12_Runway</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.09581881533101046</data>
+<data key="betweenesscentrality">0.3249645099645101</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.34013630208078754</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">775.23535</data>
+<data key="y">-558.1837</data>
+<data key="z">0.006764116</data>
+</node>
+<node id="13">
+<data key="label">13_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.08076358296622614</data>
+<data key="betweenesscentrality">0.2298252798252799</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.41826642521994917</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">1215.0653</data>
+<data key="y">-451.11935</data>
+<data key="z">0.0022731924</data>
+</node>
+<node id="81">
+<data key="label">81</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.09725906277630417</data>
+<data key="betweenesscentrality">0.23739148239148242</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.39560725998931523</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">543.4647</data>
+<data key="y">-657.5138</data>
+<data key="z">0.0049513164</data>
+</node>
+<node id="85">
+<data key="label">85</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08878127522195318</data>
+<data key="betweenesscentrality">0.055758940758940764</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.33333334</data>
+<data key="weightedclustering">0.06666667</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.03333333333333333</data>
+<data key="eigencentrality">0.49977608764754744</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">864.503</data>
+<data key="y">-709.81696</data>
+<data key="z">0.0034926985</data>
+</node>
+<node id="94">
+<data key="label">94</data>
+<data key="indegree">5</data>
+<data key="outdegree">5</data>
+<data key="degree">10</data>
+<data key="weighted degree">10.0</data>
+<data key="weighted indegree">5.0</data>
+<data key="weighted outdegree">5.0</data>
+<data key="eccentricity">30.0</data>
+<data key="closnesscentrality">0.08764940239043825</data>
+<data key="betweenesscentrality">0.2505555555555553</data>
+<data key="authority">0.017291067</data>
+<data key="hub">0.017291067</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.2</data>
+<data key="weightedclustering">0.044444446</data>
+<data key="strenght">10.0</data>
+<data key="newClusteringCoefficient">0.022222222222222223</data>
+<data key="eigencentrality">1.0</data>
+<data key="size">60.0</data>
+<data key="r">1</data>
+<data key="g">133</data>
+<data key="b">113</data>
+<data key="x">1440.2401</data>
+<data key="y">-490.37897</data>
+<data key="z">0.0053248983</data>
+</node>
+<node id="15">
+<data key="label">15_Runway</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.09001636661211129</data>
+<data key="betweenesscentrality">0.23890663390663355</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.5600597873583275</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">1431.3064</data>
+<data key="y">-270.80487</data>
+<data key="z">0.0016467158</data>
+</node>
+<node id="16">
+<data key="label">16_Runway</data>
+<data key="indegree">5</data>
+<data key="outdegree">5</data>
+<data key="degree">10</data>
+<data key="weighted degree">10.0</data>
+<data key="weighted indegree">5.0</data>
+<data key="weighted outdegree">5.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.09417808219178081</data>
+<data key="betweenesscentrality">0.3008695058695056</data>
+<data key="authority">0.017291067</data>
+<data key="hub">0.017291067</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">10.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.44858983480686276</data>
+<data key="size">60.0</data>
+<data key="r">1</data>
+<data key="g">133</data>
+<data key="b">113</data>
+<data key="x">1609.7435</data>
+<data key="y">-76.6295</data>
+<data key="z">2.3219197E-4</data>
+</node>
+<node id="17">
+<data key="label">17_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08641005498821681</data>
+<data key="betweenesscentrality">0.01597051597051597</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1828986536323704</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">1570.1442</data>
+<data key="y">58.97874</data>
+<data key="z">0.004726692</data>
+</node>
+<node id="18">
+<data key="label">18</data>
+<data key="indegree">1</data>
+<data key="outdegree">2</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.0975177304964539</data>
+<data key="betweenesscentrality">0.1988356538356538</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.15483997577205533</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">1483.0353</data>
+<data key="y">-24.249546</data>
+<data key="z">0.0018096006</data>
+</node>
+<node id="111">
+<data key="label">111</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08750994431185362</data>
+<data key="betweenesscentrality">0.10582036582036575</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2623225920879967</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">1838.2555</data>
+<data key="y">-46.753983</data>
+<data key="z">7.3449436E-4</data>
+</node>
+<node id="112">
+<data key="label">112</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08613938919342208</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.15483997577205533</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1690.722</data>
+<data key="y">1.1848545</data>
+<data key="z">2.4341646E-4</data>
+</node>
+<node id="19">
+<data key="label">19</data>
+<data key="indegree">1</data>
+<data key="outdegree">2</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.08921330089213302</data>
+<data key="betweenesscentrality">0.007411957411957412</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.0675756836689429</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">1498.7527</data>
+<data key="y">117.60895</data>
+<data key="z">0.00210758</data>
+</node>
+<node id="21">
+<data key="label">21_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.09683098591549295</data>
+<data key="betweenesscentrality">0.21431476931476928</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08791461945766554</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">1318.9813</data>
+<data key="y">40.232395</data>
+<data key="z">0.009173932</data>
+</node>
+<node id="20">
+<data key="label">20_Runway</data>
+<data key="indegree">2</data>
+<data key="outdegree">1</data>
+<data key="degree">3</data>
+<data key="weighted degree">3.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.08835341365461848</data>
+<data key="betweenesscentrality">0.009213759213759214</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">3</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">3.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.0669182402998461</data>
+<data key="size">28.88889</data>
+<data key="r">169</data>
+<data key="g">178</data>
+<data key="b">153</data>
+<data key="x">1386.4316</data>
+<data key="y">103.322845</data>
+<data key="z">0.0017206784</data>
+</node>
+<node id="23">
+<data key="label">23</data>
+<data key="indegree">3</data>
+<data key="outdegree">2</data>
+<data key="degree">5</data>
+<data key="weighted degree">5.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">20.0</data>
+<data key="closnesscentrality">0.10978043912175649</data>
+<data key="betweenesscentrality">0.39423969423969424</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.33333334</data>
+<data key="weightedclustering">0.1</data>
+<data key="strenght">5.0</data>
+<data key="newClusteringCoefficient">0.05</data>
+<data key="eigencentrality">0.30515280653128685</data>
+<data key="size">37.77778</data>
+<data key="r">120</data>
+<data key="g">165</data>
+<data key="b">142</data>
+<data key="x">-140.63641</data>
+<data key="y">215.34793</data>
+<data key="z">0.0046899673</data>
+</node>
+<node id="24">
+<data key="label">24</data>
+<data key="indegree">2</data>
+<data key="outdegree">3</data>
+<data key="degree">5</data>
+<data key="weighted degree">5.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">21.0</data>
+<data key="closnesscentrality">0.10805500982318272</data>
+<data key="betweenesscentrality">0.17127627627627628</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.33333334</data>
+<data key="weightedclustering">0.1</data>
+<data key="strenght">5.0</data>
+<data key="newClusteringCoefficient">0.05</data>
+<data key="eigencentrality">0.17860901836484191</data>
+<data key="size">37.77778</data>
+<data key="r">120</data>
+<data key="g">165</data>
+<data key="b">142</data>
+<data key="x">-117.16866</data>
+<data key="y">13.982642</data>
+<data key="z">0.007031666</data>
+</node>
+<node id="25">
+<data key="label">25</data>
+<data key="indegree">4</data>
+<data key="outdegree">3</data>
+<data key="degree">7</data>
+<data key="weighted degree">7.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">19.0</data>
+<data key="closnesscentrality">0.1066925315227934</data>
+<data key="betweenesscentrality">0.3905541905541906</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">7.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.31920458120821715</data>
+<data key="size">46.666668</data>
+<data key="r">72</data>
+<data key="g">152</data>
+<data key="b">130</data>
+<data key="x">-327.69385</data>
+<data key="y">430.49506</data>
+<data key="z">0.005783241</data>
+</node>
+<node id="55">
+<data key="label">55</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.10009099181073704</data>
+<data key="betweenesscentrality">0.16403084903084905</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.15864251661026357</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">-247.99226</data>
+<data key="y">-148.85513</data>
+<data key="z">0.009395131</data>
+</node>
+<node id="27">
+<data key="label">27</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">18.0</data>
+<data key="closnesscentrality">0.10357815442561205</data>
+<data key="betweenesscentrality">0.37761397761397764</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2203428993326973</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">-507.54105</data>
+<data key="y">626.12854</data>
+<data key="z">0.0088874465</data>
+</node>
+<node id="26">
+<data key="label">26</data>
+<data key="indegree">0</data>
+<data key="outdegree">1</data>
+<data key="degree">1</data>
+<data key="weighted degree">1.0</data>
+<data key="weighted indegree">0.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">20.0</data>
+<data key="closnesscentrality">0.09719789842381786</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0</data>
+<data key="hub">0.0028818443</data>
+<data key="modularity_class">0</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">1.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.0</data>
+<data key="size">20.0</data>
+<data key="r">166</data>
+<data key="g">97</data>
+<data key="b">26</data>
+<data key="x">-347.72745</data>
+<data key="y">520.7892</data>
+<data key="z">0.008814085</data>
+</node>
+<node id="28">
+<data key="label">28</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">19.0</data>
+<data key="closnesscentrality">0.1004566210045662</data>
+<data key="betweenesscentrality">0.3801528801528802</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2608605995571107</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">-686.9576</data>
+<data key="y">814.41345</data>
+<data key="z">0.0022643097</data>
+</node>
+<node id="29">
+<data key="label">29</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">20.0</data>
+<data key="closnesscentrality">0.09136212624584718</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.10101948992813987</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-623.5461</data>
+<data key="y">891.286</data>
+<data key="z">0.0055653257</data>
+</node>
+<node id="30">
+<data key="label">30</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">20.0</data>
+<data key="closnesscentrality">0.09700176366843034</data>
+<data key="betweenesscentrality">0.3504231504231505</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.253386783253183</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-876.65826</data>
+<data key="y">983.25793</data>
+<data key="z">8.483124E-4</data>
+</node>
+<node id="54">
+<data key="label">54</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">20.0</data>
+<data key="closnesscentrality">0.09136212624584718</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.10101948992813987</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-775.60974</data>
+<data key="y">770.60925</data>
+<data key="z">0.0038752805</data>
+</node>
+<node id="31">
+<data key="label">31</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">21.0</data>
+<data key="closnesscentrality">0.08849557522123894</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.09723452145939032</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-828.4123</data>
+<data key="y">1057.3031</data>
+<data key="z">0.0028345883</data>
+</node>
+<node id="32">
+<data key="label">32</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">21.0</data>
+<data key="closnesscentrality">0.09345794392523366</data>
+<data key="betweenesscentrality">0.33633633633633636</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.29789862307944054</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">-1074.408</data>
+<data key="y">1129.304</data>
+<data key="z">0.0058302805</data>
+</node>
+<node id="33">
+<data key="label">33</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.08553654743390357</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.11392525776950194</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1073.121</data>
+<data key="y">1229.7375</data>
+<data key="z">0.0031832263</data>
+</node>
+<node id="35">
+<data key="label">35</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.08972267536704731</data>
+<data key="betweenesscentrality">0.30611520611520615</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2915374245139112</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">-1289.8447</data>
+<data key="y">1233.6243</data>
+<data key="z">0.0071987156</data>
+</node>
+<node id="53">
+<data key="label">53</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.08553654743390357</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.11392525776950194</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-991.94934</data>
+<data key="y">1186.5159</data>
+<data key="z">0.009491729</data>
+</node>
+<node id="34">
+<data key="label">34</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.08239700374531835</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.11215112334295939</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1323.0889</data>
+<data key="y">1328.4377</data>
+<data key="z">0.00907449</data>
+</node>
+<node id="36">
+<data key="label">36</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.0859375</data>
+<data key="betweenesscentrality">0.26999726999727</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.229939713056</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-1501.2848</data>
+<data key="y">1279.0083</data>
+<data key="z">0.003810731</data>
+</node>
+<node id="52">
+<data key="label">52</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.08239700374531835</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.11215112334295939</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1234.6868</data>
+<data key="y">1317.9988</data>
+<data key="z">0.008004723</data>
+</node>
+<node id="37">
+<data key="label">37</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.07919366450683946</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">4</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08995466049542661</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1508.3168</data>
+<data key="y">1367.7507</data>
+<data key="z">0.0021826334</data>
+</node>
+<node id="38">
+<data key="label">38</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.08239700374531835</data>
+<data key="betweenesscentrality">0.2472290472290472</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.20271847689097652</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-1698.6997</data>
+<data key="y">1287.1045</data>
+<data key="z">0.0023542845</data>
+</node>
+<node id="39">
+<data key="label">39</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.07913669064748201</data>
+<data key="betweenesscentrality">0.2238056238056238</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1927441895525203</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-1883.3662</data>
+<data key="y">1254.098</data>
+<data key="z">0.007486072</data>
+</node>
+<node id="51">
+<data key="label">51</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.07617728531855956</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08137368138306338</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1714.8385</data>
+<data key="y">1374.8472</data>
+<data key="z">0.00843106</data>
+</node>
+<node id="40">
+<data key="label">40</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.0733822548365577</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.07872898769414487</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1915.4076</data>
+<data key="y">1337.4763</data>
+<data key="z">0.0018700445</data>
+</node>
+<node id="41">
+<data key="label">41</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.07628294036061026</data>
+<data key="betweenesscentrality">0.20038220038220037</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1890951826305811</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-2047.2626</data>
+<data key="y">1178.9093</data>
+<data key="z">0.007726005</data>
+</node>
+<node id="42">
+<data key="label">42</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.0739247311827957</data>
+<data key="betweenesscentrality">0.17728637728637728</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.18514733486006468</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-2180.6228</data>
+<data key="y">1064.0952</data>
+<data key="z">0.0022400382</data>
+</node>
+<node id="50">
+<data key="label">50</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.07092198581560284</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.07794078714226416</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2097.2864</data>
+<data key="y">1253.0352</data>
+<data key="z">0.00741898</data>
+</node>
+<node id="43">
+<data key="label">43</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.07213114754098361</data>
+<data key="betweenesscentrality">0.15831285831285832</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1739718089811937</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-2272.797</data>
+<data key="y">916.50275</data>
+<data key="z">0.0062760236</data>
+</node>
+<node id="49">
+<data key="label">49</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.06887914840325611</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.0770831506285434</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2248.2244</data>
+<data key="y">1122.8602</data>
+<data key="z">0.0030047952</data>
+</node>
+<node id="44">
+<data key="label">44</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.06731946144430845</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">5</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.0740831024005845</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2353.9329</data>
+<data key="y">954.38354</data>
+<data key="z">9.6128293E-4</data>
+</node>
+<node id="45">
+<data key="label">45</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.07488087134104833</data>
+<data key="betweenesscentrality">0.14695604695604694</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1446824924446333</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-2315.958</data>
+<data key="y">748.91003</data>
+<data key="z">0.001974295</data>
+</node>
+<node id="46">
+<data key="label">46</data>
+<data key="indegree">2</data>
+<data key="outdegree">3</data>
+<data key="degree">5</data>
+<data key="weighted degree">5.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.07790368271954674</data>
+<data key="betweenesscentrality">0.1386022386022386</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">5.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08587204040405509</data>
+<data key="size">37.77778</data>
+<data key="r">120</data>
+<data key="g">165</data>
+<data key="b">142</data>
+<data key="x">-2309.3435</data>
+<data key="y">578.75555</data>
+<data key="z">5.5200476E-6</data>
+</node>
+<node id="48">
+<data key="label">48</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.0697084917617237</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.06445068767975681</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2404.5056</data>
+<data key="y">761.15936</data>
+<data key="z">0.005444829</data>
+</node>
+<node id="47">
+<data key="label">47</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.07232084155161078</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.04086927764739465</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2390.849</data>
+<data key="y">562.5305</data>
+<data key="z">0.008560663</data>
+</node>
+<node id="68">
+<data key="label">68</data>
+<data key="indegree">4</data>
+<data key="outdegree">3</data>
+<data key="degree">7</data>
+<data key="weighted degree">7.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.06528189910979229</data>
+<data key="betweenesscentrality">0.14531804531804532</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">7.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.22480900380025895</data>
+<data key="size">46.666668</data>
+<data key="r">72</data>
+<data key="g">152</data>
+<data key="b">130</data>
+<data key="x">-2222.0999</data>
+<data key="y">271.95557</data>
+<data key="z">0.0045061503</data>
+</node>
+<node id="56">
+<data key="label">56</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.09760425909494232</data>
+<data key="betweenesscentrality">0.28427108927108924</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.22634028915334842</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-367.4261</data>
+<data key="y">-312.6534</data>
+<data key="z">0.001739536</data>
+</node>
+<node id="57">
+<data key="label">57</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.08957654723127036</data>
+<data key="betweenesscentrality">0.1864318864318864</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.204458187626863</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-647.31</data>
+<data key="y">-326.37906</data>
+<data key="z">0.005896185</data>
+</node>
+<node id="74">
+<data key="label">74</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.09803921568627452</data>
+<data key="betweenesscentrality">0.2165888615888616</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.20693386055343757</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-180.94891</data>
+<data key="y">-450.75104</data>
+<data key="z">0.009423713</data>
+</node>
+<node id="58">
+<data key="label">58</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.08252063015753938</data>
+<data key="betweenesscentrality">0.16006006006006004</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.200948022992333</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-904.0419</data>
+<data key="y">-315.83035</data>
+<data key="z">0.008041891</data>
+</node>
+<node id="73">
+<data key="label">73</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.08227374719521316</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08183481266305671</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-692.23724</data>
+<data key="y">-402.66434</data>
+<data key="z">0.0012362279</data>
+</node>
+<node id="59">
+<data key="label">59</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.07628294036061026</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08116349323491337</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-956.06415</data>
+<data key="y">-387.59665</data>
+<data key="z">0.0011205709</data>
+</node>
+<node id="60">
+<data key="label">60</data>
+<data key="indegree">3</data>
+<data key="outdegree">2</data>
+<data key="degree">5</data>
+<data key="weighted degree">5.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.07628294036061026</data>
+<data key="betweenesscentrality">0.13090363090363089</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">5.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2078600508853625</data>
+<data key="size">37.77778</data>
+<data key="r">120</data>
+<data key="g">165</data>
+<data key="b">142</data>
+<data key="x">-1132.587</data>
+<data key="y">-281.37106</data>
+<data key="z">0.008187442</data>
+</node>
+<node id="61">
+<data key="label">61</data>
+<data key="indegree">2</data>
+<data key="outdegree">3</data>
+<data key="degree">5</data>
+<data key="weighted degree">5.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">22.0</data>
+<data key="closnesscentrality">0.08494208494208494</data>
+<data key="betweenesscentrality">0.13491673491673492</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">5.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08919839837651015</data>
+<data key="size">37.77778</data>
+<data key="r">120</data>
+<data key="g">165</data>
+<data key="b">142</data>
+<data key="x">-1543.4161</data>
+<data key="y">-192.76175</data>
+<data key="z">7.746364E-4</data>
+</node>
+<node id="62">
+<data key="label">62</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.07834757834757834</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.041606625180466296</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1563.2012</data>
+<data key="y">-272.80682</data>
+<data key="z">0.007989622</data>
+</node>
+<node id="63">
+<data key="label">63</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">23.0</data>
+<data key="closnesscentrality">0.07936507936507936</data>
+<data key="betweenesscentrality">0.13770133770133772</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.156883869177069</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-1745.8927</data>
+<data key="y">-122.525</data>
+<data key="z">0.0036375343</data>
+</node>
+<node id="64">
+<data key="label">64</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.07427413909520594</data>
+<data key="betweenesscentrality">0.13917553917553918</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.20853677267270104</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">-1934.1016</data>
+<data key="y">-24.537512</data>
+<data key="z">0.009270237</data>
+</node>
+<node id="72">
+<data key="label">72</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">24.0</data>
+<data key="closnesscentrality">0.07357859531772575</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.06763732705625489</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1786.7592</data>
+<data key="y">-201.1627</data>
+<data key="z">0.0076208627</data>
+</node>
+<node id="65">
+<data key="label">65</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.06918238993710692</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08483244641457346</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-1984.0721</data>
+<data key="y">-98.0233</data>
+<data key="z">0.0015694324</data>
+</node>
+<node id="66">
+<data key="label">66</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.06962025316455696</data>
+<data key="betweenesscentrality">0.14802074802074802</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.26321966714743156</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">-2104.3755</data>
+<data key="y">103.22595</data>
+<data key="z">0.0017247606</data>
+</node>
+<node id="67">
+<data key="label">67</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.06512729425695678</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.10555110594480584</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2148.5378</data>
+<data key="y">12.5537615</data>
+<data key="z">0.0070387097</data>
+</node>
+<node id="71">
+<data key="label">71</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.06512729425695678</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.10555110594480584</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2203.2007</data>
+<data key="y">82.43413</data>
+<data key="z">0.009248514</data>
+</node>
+<node id="69">
+<data key="label">69</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.06131549609810479</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.09341050233889252</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2303.407</data>
+<data key="y">320.634</data>
+<data key="z">9.018244E-4</data>
+</node>
+<node id="70">
+<data key="label">70</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.06131549609810479</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">6</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.09341050233889252</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-2307.374</data>
+<data key="y">228.96141</data>
+<data key="z">0.007010504</data>
+</node>
+<node id="75">
+<data key="label">75</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.08935824532900082</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">7</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08224511215453441</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-233.44623</data>
+<data key="y">-522.73553</data>
+<data key="z">0.009012925</data>
+</node>
+<node id="76">
+<data key="label">76</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">25.0</data>
+<data key="closnesscentrality">0.09812667261373773</data>
+<data key="betweenesscentrality">0.21552416052416054</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.21356222331628072</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">33.84322</data>
+<data key="y">-554.9968</data>
+<data key="z">0.008381841</data>
+</node>
+<node id="77">
+<data key="label">77</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.08943089430894309</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.0835798410855789</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">-10.719283</data>
+<data key="y">-632.2226</data>
+<data key="z">0.0060497555</data>
+</node>
+<node id="79">
+<data key="label">79</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">26.0</data>
+<data key="closnesscentrality">0.09786476868327401</data>
+<data key="betweenesscentrality">0.21822686322686324</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2605810489957067</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">273.46445</data>
+<data key="y">-623.2114</data>
+<data key="z">0.0034731568</data>
+</node>
+<node id="78">
+<data key="label">78</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">27.0</data>
+<data key="closnesscentrality">0.08921330089213302</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.09689104834705099</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">227.06596</data>
+<data key="y">-699.38715</data>
+<data key="z">0.00909151</data>
+</node>
+<node id="80">
+<data key="label">80</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.08870967741935483</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">1</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.13920295111383024</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">467.3981</data>
+<data key="y">-723.4886</data>
+<data key="z">0.009097401</data>
+</node>
+<node id="82">
+<data key="label">82</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">28.0</data>
+<data key="closnesscentrality">0.0900900900900901</data>
+<data key="betweenesscentrality">0.06493857493857495</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.3837328278048439</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">648.6502</data>
+<data key="y">-790.1261</data>
+<data key="z">0.0014128968</data>
+</node>
+<node id="83">
+<data key="label">83</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08270676691729323</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1300232227681888</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">599.4224</data>
+<data key="y">-866.674</data>
+<data key="z">0.00960241</data>
+</node>
+<node id="84">
+<data key="label">84</data>
+<data key="indegree">5</data>
+<data key="outdegree">5</data>
+<data key="degree">10</data>
+<data key="weighted degree">10.0</data>
+<data key="weighted indegree">5.0</data>
+<data key="weighted outdegree">5.0</data>
+<data key="eccentricity">29.0</data>
+<data key="closnesscentrality">0.08647798742138364</data>
+<data key="betweenesscentrality">0.06631040131040132</data>
+<data key="authority">0.017291067</data>
+<data key="hub">0.017291067</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.1</data>
+<data key="weightedclustering">0.022222223</data>
+<data key="strenght">10.0</data>
+<data key="newClusteringCoefficient">0.011111111111111112</data>
+<data key="eigencentrality">0.6072540628882819</data>
+<data key="size">60.0</data>
+<data key="r">1</data>
+<data key="g">133</data>
+<data key="b">113</data>
+<data key="x">815.0815</data>
+<data key="y">-852.4549</data>
+<data key="z">0.0064207385</data>
+</node>
+<node id="86">
+<data key="label">86</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">30.0</data>
+<data key="closnesscentrality">0.08494208494208494</data>
+<data key="betweenesscentrality">0.07978842478842475</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.035714287</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.017857142857142856</data>
+<data key="eigencentrality">0.5659051857470295</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">992.3175</data>
+<data key="y">-805.18256</data>
+<data key="z">0.0072963163</data>
+</node>
+<node id="87">
+<data key="label">87</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">30.0</data>
+<data key="closnesscentrality">0.07965242577842144</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.19870309055864693</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">761.6762</data>
+<data key="y">-953.4437</data>
+<data key="z">0.003690939</data>
+</node>
+<node id="88">
+<data key="label">88</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">30.0</data>
+<data key="closnesscentrality">0.07965242577842144</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.19870309055864693</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">845.50665</data>
+<data key="y">-962.6628</data>
+<data key="z">0.004978414</data>
+</node>
+<node id="89">
+<data key="label">89</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.07834757834757834</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.18251342739062132</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1027.8999</data>
+<data key="y">-901.0263</data>
+<data key="z">0.008236733</data>
+</node>
+<node id="90">
+<data key="label">90</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.08314436885865457</data>
+<data key="betweenesscentrality">0.06706661206661203</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.45815684641584936</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">1196.425</data>
+<data key="y">-772.06934</data>
+<data key="z">0.009571141</data>
+</node>
+<node id="91">
+<data key="label">91</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07681564245810056</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.1440813803540586</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1225.6224</data>
+<data key="y">-857.7175</data>
+<data key="z">0.0014404164</data>
+</node>
+<node id="92">
+<data key="label">92</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.08409785932721713</data>
+<data key="betweenesscentrality">0.07274501774501772</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.035714287</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.017857142857142856</data>
+<data key="eigencentrality">0.7583984680418375</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">1378.368</data>
+<data key="y">-671.8357</data>
+<data key="z">0.0035898078</data>
+</node>
+<node id="93">
+<data key="label">93</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.0776287932251235</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">8</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.22770542289991838</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1407.2501</data>
+<data key="y">-769.87396</data>
+<data key="z">0.0017775572</data>
+</node>
+<node id="95">
+<data key="label">95</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.08308157099697885</data>
+<data key="betweenesscentrality">0.030554190554190546</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.33333334</data>
+<data key="weightedclustering">0.071428575</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.03571428571428571</data>
+<data key="eigencentrality">0.822452172246746</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">1535.6586</data>
+<data key="y">-624.6077</data>
+<data key="z">0.0032813344</data>
+</node>
+<node id="97">
+<data key="label">97</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.0818452380952381</data>
+<data key="betweenesscentrality">0.10261534261534262</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.16666667</data>
+<data key="weightedclustering">0.035714287</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.017857142857142856</data>
+<data key="eigencentrality">0.7295031570440919</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">1672.2052</data>
+<data key="y">-542.25964</data>
+<data key="z">0.0056040245</data>
+</node>
+<node id="96">
+<data key="label">96</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07676203768318214</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.24489508192567153</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1590.3883</data>
+<data key="y">-711.87805</data>
+<data key="z">0.008838417</data>
+</node>
+<node id="98">
+<data key="label">98</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07570543702684102</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.22115746292851907</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1750.6012</data>
+<data key="y">-607.10016</data>
+<data key="z">0.0011919823</data>
+</node>
+<node id="99">
+<data key="label">99</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07686932215234102</data>
+<data key="betweenesscentrality">0.0734589134589135</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.3503166987175379</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">1895.1327</data>
+<data key="y">-507.15048</data>
+<data key="z">0.0028095979</data>
+</node>
+<node id="100">
+<data key="label">100</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">33.0</data>
+<data key="closnesscentrality">0.07142857142857142</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.11649213818883805</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">1959.1333</data>
+<data key="y">-570.7897</data>
+<data key="z">0.0020027235</data>
+</node>
+<node id="101">
+<data key="label">101</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">33.0</data>
+<data key="closnesscentrality">0.07236842105263158</data>
+<data key="betweenesscentrality">0.04948948948948948</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.23428597037690976</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">2059.352</data>
+<data key="y">-430.8917</data>
+<data key="z">0.009367907</data>
+</node>
+<node id="102">
+<data key="label">102</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">34.0</data>
+<data key="closnesscentrality">0.06752608962553715</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">9</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08754203821311199</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">2135.9768</data>
+<data key="y">-479.62973</data>
+<data key="z">2.6435236E-4</data>
+</node>
+<node id="103">
+<data key="label">103</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07397444519166106</data>
+<data key="betweenesscentrality">0.036336336336336345</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2103754187194678</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">2155.2017</data>
+<data key="y">-308.08807</data>
+<data key="z">0.005691978</data>
+</node>
+<node id="104">
+<data key="label">104</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">33.0</data>
+<data key="closnesscentrality">0.06892230576441102</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08269751138334148</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">2245.1855</data>
+<data key="y">-323.34296</data>
+<data key="z">0.007454749</data>
+</node>
+<node id="105">
+<data key="label">105</data>
+<data key="indegree">3</data>
+<data key="outdegree">3</data>
+<data key="degree">6</data>
+<data key="weighted degree">6.0</data>
+<data key="weighted indegree">3.0</data>
+<data key="weighted outdegree">3.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.07676203768318214</data>
+<data key="betweenesscentrality">0.04081900081900082</data>
+<data key="authority">0.011527377</data>
+<data key="hub">0.011527377</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">6.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2262255150172147</data>
+<data key="size">42.22222</data>
+<data key="r">96</data>
+<data key="g">158</data>
+<data key="b">136</data>
+<data key="x">2150.221</data>
+<data key="y">-160.97517</data>
+<data key="z">6.0559803E-4</data>
+</node>
+<node id="106">
+<data key="label">106</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07133592736705577</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.08859762291664464</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">2239.0679</data>
+<data key="y">-139.7841</data>
+<data key="z">7.3000666E-4</data>
+</node>
+<node id="107">
+<data key="label">107</data>
+<data key="indegree">4</data>
+<data key="outdegree">4</data>
+<data key="degree">8</data>
+<data key="weighted degree">8.0</data>
+<data key="weighted indegree">4.0</data>
+<data key="weighted outdegree">4.0</data>
+<data key="eccentricity">30.0</data>
+<data key="closnesscentrality">0.0818452380952381</data>
+<data key="betweenesscentrality">0.0962380562380562</data>
+<data key="authority">0.014409222</data>
+<data key="hub">0.014409222</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">8.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.2795354337344437</data>
+<data key="size">51.11111</data>
+<data key="r">48</data>
+<data key="g">145</data>
+<data key="b">124</data>
+<data key="x">2043.7484</data>
+<data key="y">-35.29181</data>
+<data key="z">0.007597898</data>
+</node>
+<node id="108">
+<data key="label">108</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.07570543702684102</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.10748261631594136</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">2046.8826</data>
+<data key="y">66.081276</data>
+<data key="z">9.2198624E-4</data>
+</node>
+<node id="109">
+<data key="label">109</data>
+<data key="indegree">2</data>
+<data key="outdegree">2</data>
+<data key="degree">4</data>
+<data key="weighted degree">4.0</data>
+<data key="weighted indegree">2.0</data>
+<data key="weighted outdegree">2.0</data>
+<data key="eccentricity">31.0</data>
+<data key="closnesscentrality">0.07580978635423845</data>
+<data key="betweenesscentrality">0.017936117936117935</data>
+<data key="authority">0.008645534</data>
+<data key="hub">0.008645534</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">4.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.13231374028839718</data>
+<data key="size">33.333336</data>
+<data key="r">144</data>
+<data key="g">171</data>
+<data key="b">147</data>
+<data key="x">2150.7874</data>
+<data key="y">42.327362</data>
+<data key="z">0.0042211204</data>
+</node>
+<node id="110">
+<data key="label">110</data>
+<data key="indegree">1</data>
+<data key="outdegree">1</data>
+<data key="degree">2</data>
+<data key="weighted degree">2.0</data>
+<data key="weighted indegree">1.0</data>
+<data key="weighted outdegree">1.0</data>
+<data key="eccentricity">32.0</data>
+<data key="closnesscentrality">0.07051282051282051</data>
+<data key="betweenesscentrality">0.0</data>
+<data key="authority">0.0057636886</data>
+<data key="hub">0.0057636886</data>
+<data key="modularity_class">2</data>
+<data key="clustering">0.0</data>
+<data key="weightedclustering">0.0</data>
+<data key="strenght">2.0</data>
+<data key="newClusteringCoefficient">0.0</data>
+<data key="eigencentrality">0.054241532185921745</data>
+<data key="size">24.444445</data>
+<data key="r">193</data>
+<data key="g">184</data>
+<data key="b">159</data>
+<data key="x">2212.028</data>
+<data key="y">93.352615</data>
+<data key="z">0.00897332</data>
+</node>
+<edge source="1" target="2">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2707.0</data>
+</edge>
+<edge source="2" target="3">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2345.0</data>
+</edge>
+<edge source="2" target="11">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">237.0</data>
+</edge>
+<edge source="2" target="14">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">127.0</data>
+</edge>
+<edge source="3" target="4">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">330.0</data>
+</edge>
+<edge source="3" target="9">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2018.0</data>
+</edge>
+<edge source="11" target="12">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2319.0</data>
+</edge>
+<edge source="14" target="15">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">314.0</data>
+</edge>
+<edge source="4" target="9">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="4" target="5">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">224.0</data>
+</edge>
+<edge source="9" target="8">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">215.0</data>
+</edge>
+<edge source="9" target="10">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">423.0</data>
+</edge>
+<edge source="9" target="22">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1943.0</data>
+</edge>
+<edge source="5" target="6">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="5" target="8">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">115.0</data>
+</edge>
+<edge source="6" target="7">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="8" target="9">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">449.0</data>
+</edge>
+<edge source="8" target="7">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">110.0</data>
+</edge>
+<edge source="7" target="8">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">227.0</data>
+</edge>
+<edge source="10" target="11">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2083.0</data>
+</edge>
+<edge source="10" target="22">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">53.0</data>
+</edge>
+<edge source="22" target="10">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1711.0</data>
+</edge>
+<edge source="22" target="23">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1722.0</data>
+</edge>
+<edge source="22" target="24">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">526.0</data>
+</edge>
+<edge source="12" target="13">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">3048.0</data>
+</edge>
+<edge source="12" target="81">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">549.0</data>
+</edge>
+<edge source="12" target="85">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">402.0</data>
+</edge>
+<edge source="13" target="14">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">171.0</data>
+</edge>
+<edge source="13" target="94">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2925.0</data>
+</edge>
+<edge source="81" target="12">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1520.0</data>
+</edge>
+<edge source="81" target="79">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1170.0</data>
+</edge>
+<edge source="81" target="80">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="81" target="82">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">379.0</data>
+</edge>
+<edge source="85" target="12">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">160.0</data>
+</edge>
+<edge source="85" target="84">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">135.0</data>
+</edge>
+<edge source="85" target="86">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">204.0</data>
+</edge>
+<edge source="94" target="13">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">44.0</data>
+</edge>
+<edge source="94" target="15">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2607.0</data>
+</edge>
+<edge source="94" target="92">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">380.0</data>
+</edge>
+<edge source="94" target="95">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">179.0</data>
+</edge>
+<edge source="94" target="97">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">833.0</data>
+</edge>
+<edge source="15" target="14">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">28.0</data>
+</edge>
+<edge source="15" target="94">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">312.0</data>
+</edge>
+<edge source="15" target="16">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2721.0</data>
+</edge>
+<edge source="16" target="15">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">216.0</data>
+</edge>
+<edge source="16" target="17">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">327.0</data>
+</edge>
+<edge source="16" target="18">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2584.0</data>
+</edge>
+<edge source="16" target="111">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">629.0</data>
+</edge>
+<edge source="16" target="112">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="17" target="16">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">70.0</data>
+</edge>
+<edge source="17" target="19">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">291.0</data>
+</edge>
+<edge source="18" target="16">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">33.0</data>
+</edge>
+<edge source="18" target="21">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2552.0</data>
+</edge>
+<edge source="111" target="16">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">932.0</data>
+</edge>
+<edge source="111" target="107">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">540.0</data>
+</edge>
+<edge source="112" target="16">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">112.0</data>
+</edge>
+<edge source="19" target="17">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">33.0</data>
+</edge>
+<edge source="19" target="20">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">259.0</data>
+</edge>
+<edge source="21" target="1">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2705.0</data>
+</edge>
+<edge source="21" target="20">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">109.0</data>
+</edge>
+<edge source="20" target="21">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">262.0</data>
+</edge>
+<edge source="23" target="22">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1736.0</data>
+</edge>
+<edge source="23" target="25">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">3220.0</data>
+</edge>
+<edge source="24" target="22">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">227.0</data>
+</edge>
+<edge source="24" target="23">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1542.0</data>
+</edge>
+<edge source="24" target="55">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">473.0</data>
+</edge>
+<edge source="25" target="23">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1692.0</data>
+</edge>
+<edge source="25" target="25">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">0.0</data>
+</edge>
+<edge source="25" target="27">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">3216.0</data>
+</edge>
+<edge source="55" target="24">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1716.0</data>
+</edge>
+<edge source="55" target="56">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">431.0</data>
+</edge>
+<edge source="27" target="25">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1574.0</data>
+</edge>
+<edge source="27" target="28">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">3171.0</data>
+</edge>
+<edge source="26" target="25">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="28" target="27">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1527.0</data>
+</edge>
+<edge source="28" target="29">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="28" target="30">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">3024.0</data>
+</edge>
+<edge source="28" target="54">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="29" target="28">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="30" target="28">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1374.0</data>
+</edge>
+<edge source="30" target="31">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="30" target="32">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2916.0</data>
+</edge>
+<edge source="54" target="28">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="31" target="30">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="32" target="30">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1262.0</data>
+</edge>
+<edge source="32" target="33">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="32" target="35">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2739.0</data>
+</edge>
+<edge source="32" target="53">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="33" target="32">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="35" target="32">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1079.0</data>
+</edge>
+<edge source="35" target="34">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="35" target="36">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2544.0</data>
+</edge>
+<edge source="35" target="52">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="53" target="32">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="34" target="35">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="36" target="35">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">878.0</data>
+</edge>
+<edge source="36" target="37">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="36" target="38">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2406.0</data>
+</edge>
+<edge source="52" target="35">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="37" target="36">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="38" target="36">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">736.0</data>
+</edge>
+<edge source="38" target="39">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2264.0</data>
+</edge>
+<edge source="38" target="51">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="39" target="38">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">590.0</data>
+</edge>
+<edge source="39" target="40">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="39" target="41">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2118.0</data>
+</edge>
+<edge source="51" target="38">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="40" target="39">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="41" target="39">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">440.0</data>
+</edge>
+<edge source="41" target="42">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1978.0</data>
+</edge>
+<edge source="41" target="50">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="42" target="41">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">294.0</data>
+</edge>
+<edge source="42" target="43">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1840.0</data>
+</edge>
+<edge source="42" target="49">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="50" target="41">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="43" target="42">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">150.0</data>
+</edge>
+<edge source="43" target="44">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="43" target="45">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1800.0</data>
+</edge>
+<edge source="49" target="42">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="44" target="43">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">115.0</data>
+</edge>
+<edge source="45" target="43">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">102.0</data>
+</edge>
+<edge source="45" target="46">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1760.0</data>
+</edge>
+<edge source="45" target="48">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="46" target="45">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">54.0</data>
+</edge>
+<edge source="46" target="47">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="46" target="68">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1714.0</data>
+</edge>
+<edge source="48" target="45">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">115.0</data>
+</edge>
+<edge source="47" target="46">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">115.0</data>
+</edge>
+<edge source="68" target="66">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1750.0</data>
+</edge>
+<edge source="68" target="69">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="68" target="70">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="56" target="55">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1679.0</data>
+</edge>
+<edge source="56" target="57">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">407.0</data>
+</edge>
+<edge source="56" target="74">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1657.0</data>
+</edge>
+<edge source="57" target="56">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2172.0</data>
+</edge>
+<edge source="57" target="58">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">247.0</data>
+</edge>
+<edge source="57" target="73">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="74" target="56">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1141.0</data>
+</edge>
+<edge source="74" target="75">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="74" target="76">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1657.0</data>
+</edge>
+<edge source="58" target="57">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">2006.0</data>
+</edge>
+<edge source="58" target="59">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="58" target="60">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">83.0</data>
+</edge>
+<edge source="73" target="57">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="59" target="58">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="60" target="58">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1836.0</data>
+</edge>
+<edge source="60" target="60">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">0.0</data>
+</edge>
+<edge source="61" target="60">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1750.0</data>
+</edge>
+<edge source="61" target="62">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="61" target="63">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">20.0</data>
+</edge>
+<edge source="62" target="61">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="63" target="61">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1764.0</data>
+</edge>
+<edge source="63" target="64">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">32.0</data>
+</edge>
+<edge source="63" target="72">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="64" target="63">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1770.0</data>
+</edge>
+<edge source="64" target="65">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="64" target="66">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">36.0</data>
+</edge>
+<edge source="72" target="63">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="65" target="64">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="66" target="68">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">27.0</data>
+</edge>
+<edge source="66" target="64">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1768.0</data>
+</edge>
+<edge source="66" target="67">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="66" target="71">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="67" target="66">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="71" target="66">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="69" target="68">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="70" target="68">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="75" target="74">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="76" target="74">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1135.0</data>
+</edge>
+<edge source="76" target="77">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="76" target="79">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1651.0</data>
+</edge>
+<edge source="77" target="76">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="79" target="81">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1695.0</data>
+</edge>
+<edge source="79" target="76">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">1130.0</data>
+</edge>
+<edge source="79" target="78">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="78" target="79">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="80" target="81">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="82" target="81">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">841.0</data>
+</edge>
+<edge source="82" target="83">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="82" target="84">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">251.0</data>
+</edge>
+<edge source="83" target="82">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="84" target="85">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">20.0</data>
+</edge>
+<edge source="84" target="82">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">707.0</data>
+</edge>
+<edge source="84" target="86">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">279.0</data>
+</edge>
+<edge source="84" target="87">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="84" target="88">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="86" target="85">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">74.0</data>
+</edge>
+<edge source="86" target="84">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">608.0</data>
+</edge>
+<edge source="86" target="89">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="86" target="90">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">377.0</data>
+</edge>
+<edge source="87" target="84">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="88" target="84">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="89" target="86">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="90" target="86">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">602.0</data>
+</edge>
+<edge source="90" target="91">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="90" target="92">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">309.0</data>
+</edge>
+<edge source="91" target="90">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="92" target="94">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">349.0</data>
+</edge>
+<edge source="92" target="90">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">528.0</data>
+</edge>
+<edge source="92" target="93">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="92" target="95">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">114.0</data>
+</edge>
+<edge source="93" target="92">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="95" target="94">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">146.0</data>
+</edge>
+<edge source="95" target="92">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">302.0</data>
+</edge>
+<edge source="95" target="97">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">110.0</data>
+</edge>
+<edge source="95" target="96">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="97" target="94">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">312.0</data>
+</edge>
+<edge source="97" target="95">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">264.0</data>
+</edge>
+<edge source="97" target="98">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="97" target="99">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">758.0</data>
+</edge>
+<edge source="96" target="95">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="98" target="97">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="99" target="97">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">394.0</data>
+</edge>
+<edge source="99" target="100">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="99" target="101">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">581.0</data>
+</edge>
+<edge source="100" target="99">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="101" target="99">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">208.0</data>
+</edge>
+<edge source="101" target="102">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="101" target="103">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">530.0</data>
+</edge>
+<edge source="102" target="101">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="103" target="101">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">152.0</data>
+</edge>
+<edge source="103" target="104">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="103" target="105">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">498.0</data>
+</edge>
+<edge source="104" target="103">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="105" target="103">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">116.0</data>
+</edge>
+<edge source="105" target="106">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="105" target="107">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">488.0</data>
+</edge>
+<edge source="106" target="105">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">113.0</data>
+</edge>
+<edge source="107" target="111">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">844.0</data>
+</edge>
+<edge source="107" target="105">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">186.0</data>
+</edge>
+<edge source="107" target="108">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="107" target="109">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">220.0</data>
+</edge>
+<edge source="108" target="107">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">112.0</data>
+</edge>
+<edge source="109" target="107">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">222.0</data>
+</edge>
+<edge source="109" target="110">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">111.0</data>
+</edge>
+<edge source="110" target="109">
+<data key="weight">1.0</data>
+<data key="edgebetweenness">112.0</data>
+</edge>
+</graph>
+</graphml>
