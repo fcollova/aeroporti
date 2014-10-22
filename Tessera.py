@@ -56,11 +56,22 @@ plt.savefig('circular_tree.png')
 plt.show()
 
 
-
-pos1=nx.spring_layout(DG)
-nx.draw(DG,pos1,node_size=20,alpha=0.5,node_color="blue" , with_labels=False)
+##
+##pos1=nx.spring_layout(DG)
+##nx.draw(DG,pos1,node_size=20,alpha=0.5,node_color="blue" , with_labels=False)
 #labels=nx.draw_networkx_labels(DG,pos1, labels=labels, font_sixe=9)
 
-plt.axis('equal')
-plt.show()
+##plt.axis('equal')
+##plt.show()
+
+
+
+for x in DG.nodes():
+    for y in DG.nodes():
+        if x<>y:
+            try:
+                path=nx.shortest_path(DG, source=x, target=y, weight=None)
+                print path
+            except nx.NetworkXNoPath:
+                print 'No path', x, y
 
