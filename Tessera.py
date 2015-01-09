@@ -22,7 +22,7 @@ DG = net
 
 
 
-fh=open("test.edgelist",'wb')
+fh=open("Visual_Create_Graph.edgelist",'wb')
 nx.write_edgelist(DG, fh)
 
 #with open(filename) as f:
